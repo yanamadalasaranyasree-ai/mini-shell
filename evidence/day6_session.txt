@@ -1,0 +1,10 @@
+Script started on 2026-11-09 11:00:18+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day6[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day6[00m$ ./pipe_dm[Kemo
+[?2004l4
+PARENT: both commands finished
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day6[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day6[00m$ ls -l \[K| wc -l
+[?2004l4
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day6[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day6[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 11:00:46+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,20 @@
+Script started on 2026-11-09 12:48:38+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day9[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day9[00m$ ./sigint_s[Kdemo
+[?2004lMy PID is 1280. Press Ctrl+C three times to stop.
+working...
+working...
+working...
+^C
+Caught Ctrl+C
+working...
+working...
+^C
+Caught Ctrl+C
+working...
+^C
+Caught Ctrl+C
+Got Ctrl+C 3 times, exiting
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day9[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day9[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 12:49:01+00:00 [COMMAND_EXIT_CODE="0"]

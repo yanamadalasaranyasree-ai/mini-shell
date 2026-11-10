@@ -1,0 +1,28 @@
+Script started on 2026-11-10 04:40:42+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day10[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day10[00m$ ./tests/test_commands.sh
+[?2004lPASS  T01  pwd prints the current directory
+PASS  T02  ls -l runs and output appears
+PASS  T03  echo prints text
+PASS  T04  cd changes the directory
+PASS  T05  cd /invalid shows an error
+PASS  T05  shell continues after a bad cd
+PASS  T06  ls > files.txt stores the output
+PASS  T07  echo >> appends and keeps old text
+PASS  T08  cat < file reads the file as input
+PASS  T09  ls | grep passes output along
+PASS  T10  three-command pipeline works
+PASS  T11  background job prints its pid
+MANUAL T12  Ctrl+C during a foreground sleep 10 (try it by hand)
+PASS  T13  unknown command gives an error
+PASS  T14  no zombie processes remain
+PASS  T15  exit ends the shell cleanly
+PASS  E1  syntax error: pipe first
+PASS  E2  syntax error: missing file
+PASS  E3  missing input file
+PASS  C1  redirection and pipe together
+
+Passed: 19   Failed: 0
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day10[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day10[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-10 04:41:08+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,85 @@
+Script started on 2026-11-09 16:32:56+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day10[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day10[00m$ ./minishell
+[?2004lminishell> pwd
+/home/saranya/mini_shell/day10
+minishell> ls -l
+total 40
+-rw-r--r-- 1 saranya saranya     0 Nov  9 16:32 day10_session.txt
+-rw-r--r-- 1 saranya saranya    35 Nov  9 16:08 file.txt
+-rwxr-xr-x 1 saranya saranya 21696 Nov  9 16:06 minishell
+-rw-r--r-- 1 saranya saranya  8941 Nov  9 16:05 minishell.c
+minishell> echo Hello linux
+Hello linux
+minishell> cd /tmp
+minishell> pwd
+/tmp
+minishell> cd /invalid
+cd: No such file or directory
+minishell> cd ~/mini_shell/day10
+cd: No such file or directory
+minishell> ls > files.txt
+minishell> cat files.txt
+count.txt
+file.txt
+files.txt
+log.txt
+out.txt
+snap-private-tmp
+systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-chrony.service-mDaCXI
+systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-systemd-logind.service-DqETcl
+systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-wsl-pro.service-4BQAID
+minishell> echo Linux >> log.txt
+minishell> echo l Linux >> log.txt
+minishell> cat log.txt
+Linux
+Linux
+Linux
+Linux
+Linux
+Linux
+minishell> cat < files.txt
+count.txt
+file.txt
+files.txt
+log.txt
+out.txt
+snap-private-tmp
+systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-chrony.service-mDaCXI
+systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-systemd-logind.service-DqETcl
+systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-wsl-pro.service-4BQAID
+minishell> la    ls -l | grep.c
+minishell: grep.c: command not found
+minishell> ls -l | grep .c
+-rw-r--r-- 1 saranya saranya   2 Nov  9 16:31 count.txt
+drwx------ 3 root    root     60 Nov  9 15:41 systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-chrony.service-mDaCXI
+drwx------ 3 root    root     60 Nov  9 15:41 systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-systemd-logind.service-DqETcl
+drwx------ 3 root    root     60 Nov  9 16:26 systemd-private-8e06998fcdfc4a4eb98ef542f4561a59-wsl-pro.service-4BQAID
+minishell> cat file.txt | grep Linux | wc -l
+2
+minishell> sleep 10 &
+[background pid: 931]
+minishell> invalidcommand
+minishell: invalidcommand: command not found
+minishell> sleep 10
+^C
+minishell> cat < file.txt | grep Linux > out.txt
+minishell> cat out.txt
+Hello Linux
+Linux shell
+minishell> cat file.txt | grep Linux | wc -l > count  .txt
+minishell> cat count.txt
+2
+minishell> | ls
+minishell: syntax error: missing command before '|'
+minishell> ls |
+minishell: syntax error: missing command after '|'
+minishell> ls > >^[       > file
+minishell: syntax error: missing file after '>'
+minishell> cat <
+minishell: syntax error: missing file after '<'
+minishell> exit
+Goodbye!
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day10[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day10[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 16:38:11+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,19 @@
+Script started on 2026-11-09 12:15:21+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day7[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day7[00m$ ./shell_multipipe
+[?2004lminishell> cat file.txt | grep Linux | wc -l
+2
+minishell> cat file.txt | grep Linux
+Hello Linux
+Linux shell
+minishell> cat file.r txt | grep Linux | grep shell | wc -l
+1
+minishell> cat file.txt | grep -i Linux | wc -l
+2
+minishell> ls | wc -l
+7
+minishell> exit
+Goodbye!
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day7[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day7[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 12:17:46+00:00 [COMMAND_EXIT_CODE="0"]

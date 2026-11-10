@@ -1,0 +1,13 @@
+Script started on 2026-11-09 07:36:13+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="134" LINES="35"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day5[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day5[00m$ ./redirect_demo
+[?2004lPARENT: ls finished, output is in files.txt
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day5[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day5[00m$ cat files.txt
+[?2004ltotal 20
+-rw-r--r-- 1 saranya saranya     0 Nov  9 07:36 day5_session.txt
+-rw-r--r-- 1 saranya saranya     0 Nov  9 07:36 files.txt
+-rwxr-xr-x 1 saranya saranya 16352 Nov  9 07:34 redirect_demo
+-rw-r--r-- 1 saranya saranya   715 Nov  9 07:33 redirect_demo.c
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day5[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day5[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 07:36:42+00:00 [COMMAND_EXIT_CODE="0"]

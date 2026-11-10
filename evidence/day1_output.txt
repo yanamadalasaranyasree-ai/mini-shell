@@ -1,0 +1,23 @@
+My PID:3367
+Parent PID:591
+PARENT:my PID=3379,child PID=3380
+CHILD:my PID=3380,parent PID=3379
+CHILD:working for 2 seconds...
+CHILD:done
+PARENT:waiting for child...
+PARENT:child finished,now I continue
+CHILD:existing with code 7
+PARENT:child exit code=7
+total 104
+-rwxr-xr-x 1 saranya saranya 16216 Oct 29 04:55 exec_demo
+-rw-r--r-- 1 saranya saranya   310 Oct 29 04:55 exec_demo.c
+-rwxr-xr-x 1 saranya saranya 16128 Oct 29 04:28 fork_demo
+-rw-r--r-- 1 saranya saranya   277 Oct 29 04:28 fork_demo.c
+-rw-r--r-- 1 saranya saranya   254 Oct 29 05:09 output.txt
+-rwxr-xr-x 1 saranya saranya 16040 Oct 29 04:19 pid
+-rw-r--r-- 1 saranya saranya   137 Oct 29 04:16 pid.c
+-rwxr-xr-x 1 saranya saranya 16120 Oct 29 04:36 wait_demo
+-rw-r--r-- 1 saranya saranya   363 Oct 29 04:36 wait_demo.c
+-rwxr-xr-x 1 saranya saranya 16224 Oct 29 04:47 waitpid_demo
+-rw-r--r-- 1 saranya saranya   368 Oct 29 04:46 waitpid_demo.c
+PARENT:ls finished

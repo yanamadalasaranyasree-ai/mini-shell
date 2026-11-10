@@ -1,0 +1,32 @@
+Script started on 2026-11-09 06:08:24+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="134" LINES="35"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day3[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day3[00m$ ./parser1
+[?2004lminishell> ls -l /tmp
+argv[0] = ls
+argv[1] = -l
+argv[2] = /tmp
+argv[3] = NULL
+minishell> exit    echo hello world
+argv[0] = echo
+argv[1] = hello
+argv[2] = world
+argv[3] = NULL
+minishell> exit
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day3[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day3[00m$ ./run1
+[?2004lminishell> ls -l
+total 44
+-rw-r--r-- 1 saranya saranya     0 Nov  9 06:08 day3_session.txt
+-rwxr-xr-x 1 saranya saranya 16264 Nov  9 05:20 parser1
+-rw-r--r-- 1 saranya saranya  1013 Nov  9 05:20 parser1.c
+-rwxr-xr-x 1 saranya saranya 16544 Nov  9 05:29 run1
+-rw-r--r-- 1 saranya saranya  1299 Nov  9 05:28 run1.c
+minishell> date
+Mon Nov  9 06:09:22 UTC 2026
+minishell> echo linux command
+linux command
+minishell> invalidcommand
+minishell: invalidcommand: command not found
+minishell> exit
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day3[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day3[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 06:09:48+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,57 @@
+Script started on 2026-11-09 08:01:40+00:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="144" LINES="38"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day5[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day5[00m$ ./shell_redirect
+[?2004lminishell> ls > files.txt
+minishell> catv  files.txt
+day5_session.txt
+day5_shell_session.txt
+files.txt
+log.txt
+redirect_demo
+redirect_demo.c
+redirect_demo2
+redirect_demo2.c
+shell_redirect
+shell_redirect.c
+minishell> echo Linux >> log.txt
+minishell> echo shell >> log, .txt
+minishell> cat log.txt
+Linux
+Linux
+shell
+minishell> cat < files.txt
+day5_session.txt
+day5_shell_session.txt
+files.txt
+log.txt
+redirect_demo
+redirect_demo.c
+redirect_demo2
+redirect_demo2.c
+shell_redirect
+shell_redirect.c
+minishell> cat < files.txt > copy.txt
+minishell> cat copy.txt
+day5_session.txt
+day5_shell_session.txt
+files.txt
+log.txt
+redirect_demo
+redirect_demo.c
+redirect_demo2
+redirect_demo2.c
+shell_redirect
+shell_redirect.c
+minishell> cat < nofile.txt
+nofile.txt: No such file or directory
+minishell> > file.txt
+minishell: syntax error: missing command
+minishell> ls >
+minishell: syntax error: missing file after '>'
+minishell> invalidcommand
+minishell: invalidcommand: command not found
+minishell> exit
+Goodbye!
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day5[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day5[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 08:04:02+00:00 [COMMAND_EXIT_CODE="0"]

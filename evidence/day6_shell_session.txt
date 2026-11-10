@@ -1,0 +1,28 @@
+Script started on 2026-11-09 12:22:25+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day6[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day6[00m$ ./shell_pipe
+[?2004lminishell> ls -l | wc -l
+7
+minishell> ls -l | grep c
+-rw-r--r-- 1 saranya saranya  1044 Nov  9 10:59 pipe_demo.c
+-rw-r--r-- 1 saranya saranya  4562 Nov  9 11:03 shell_pipe.c
+minishell> ex cho hello | wc -l
+1
+minishell> ls | wc | cat
+minishell: only one pipe is supported for now
+minishell> | ls
+minishell: syntax error: missing command next to '|'
+minishell> ls |
+minishell: syntax error: missing command next to '|'
+minishell> invalidcommand | wc -l
+minishell: invalidcommand: command not found
+0
+minishell> ls -l | invalidcommand' 
+minishell: invalidcommand: command not found
+minishell> pwd
+/home/saranya/mini_shell/day6
+minishell> exit
+Goodbye!
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day6[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day6[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 12:24:08+00:00 [COMMAND_EXIT_CODE="0"]

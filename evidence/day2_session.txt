@@ -1,0 +1,32 @@
+Script started on 2026-11-09 05:07:10+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="35"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day2[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day2[00m$ kill -USR1 18212345[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./prompt1
+[?2004lminishell> saranya
+you typed:saranya
+minishell> ls
+you typed:ls
+minishell> ^C
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day2[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day2[00m$ ./prompt1[K2
+[?2004lminishell> saranyasri
+You typed:[saranyasri]
+minishell> saranya
+You typed:[saranya]
+minishell> ls
+You typed:[ls]
+minishell> ^C
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day2[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day2[00m$ ./prompt2[K3
+[?2004lminishell> saranya
+You typed:[saranya]
+minishell> sara    ls
+You typed:[ls]
+minishell> ^C
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day2[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day2[00m$ ./,[Kminishell_v1
+[?2004lminishell> saranya
+You typed;[saranya]
+minishell> ls
+You typed;[ls]
+minishell> exit
+Goodbye!
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day2[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day2[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 05:08:38+00:00 [COMMAND_EXIT_CODE="0"]

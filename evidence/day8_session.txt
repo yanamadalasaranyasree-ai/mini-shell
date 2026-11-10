@@ -1,0 +1,14 @@
+Script started on 2026-11-09 12:30:23+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day8[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day8[00m$ ./background_demo
+[?2004l[background pid: 999]
+PARENT: still working, check 1
+PARENT: still working, check 2
+PARENT: still working, check 3
+PARENT: still working, check 4
+PARENT: still working, check 5
+PARENT: still working, check 6
+PARENT: child 999 finished
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day8[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day8[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 12:30:41+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,15 @@
+Script started on 2026-11-09 12:52:51+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day9[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day9[00m$ ./sigchld_demo
+[?2004lstarted child 1323 (sleep 1)
+started child 1324 (sleep 2)
+started child 1325 (sleep 3)
+PARENT: working, 0 child(ren) collected so far
+PARENT: working, 0 child(ren) collected so far
+PARENT: working, 1 child(ren) collected so far
+PARENT: working, 1 child(ren) collected so far
+PARENT: working, 2 child(ren) collected so far
+PARENT: all 3 children collected, no zombies
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day9[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day9[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 12:53:10+00:00 [COMMAND_EXIT_CODE="0"]

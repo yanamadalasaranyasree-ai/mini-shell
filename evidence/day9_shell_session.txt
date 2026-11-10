@@ -1,0 +1,46 @@
+Script started on 2026-11-09 13:10:21+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day9[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day9[00m$ ./shell_signals
+[?2004lminishell> sleep 10
+^C
+minishell> ^C
+minishell> sleep 20 &
+[background pid: 1484]
+minishell> ^C
+minishell> pd s
+    PID TTY          TIME CMD
+   1472 pts/3    00:00:00 bash
+   1479 pts/3    00:00:00 shell_signals
+   1484 pts/3    00:00:00 sleep
+   1489 pts/3    00:00:00 ps
+minishell> sleep 1 &
+[background pid: 1492]
+minishell> sleep 1 &
+[background pid: 1493]
+minishell> sleep 1 &
+[background pid: 1494]
+minishell> ps aux | grep defunct
+error: garbage option
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+minishell> ls
+day9_session.txt  day9_shell_session.txt  day9_sigchld_session.txt  shell_signals  shell_signals.c  sigchld_demo  sigchld_demo.c  sigint_demo  sigint_demo.c
+minishell> echo Hello Linux
+Hello Linux
+minishell> invalidcommand
+minishell: invalidcommand: command not found
+minishell> invalidcommand:
+minishell: invalidcommand:: command not found
+minishell> cd /tmp
+minishell> exit
+Goodbye!
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day9[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day9[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-09 13:12:30+00:00 [COMMAND_EXIT_CODE="0"]

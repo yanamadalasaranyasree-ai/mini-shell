@@ -1,0 +1,10 @@
+Script started on 2026-11-09 11:19:44+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day7[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day7[00m$ ./pipe_demo3
+[?2004l1
+PARENT: all commands finished
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day7[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day7[00m$ ls -l | grep c | wc -l
+[?2004l1
+[?2004h]0;saranya@DESKTOP-1EASUL0: ~/mini_shell/day7[01;32msaranya@DESKTOP-1EASUL0[00m:[01;34m~/mini_shell/day7[00m$ exii[Kt
+[?2004lexit
+
+Script done on 2026-11-09 11:20:22+00:00 [COMMAND_EXIT_CODE="0"]
